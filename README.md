@@ -49,7 +49,7 @@ Soleia is an Android-based event management platform designed to streamline even
 ### Android App
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/[yourusername]/soleia.git
+   git clone https://github.com/PasanSWijekoon/Soleia-Event-Booking-Application.git
    ```
 2. **Open in Android Studio**:
    - Launch Android Studio and open the project from the cloned directory.
@@ -142,8 +142,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or support, contact Pasan Wijekoon via:
-- Email: [your-email@example.com]
-- GitHub: [yourusername](https://github.com/[yourusername])
+- Email: [wijekoonpasan055@gmail.com]
+- GitHub: [yourusername](https://github.com/PasanSWijekoon)
 
 **Note**: This project was developed as part of the Handheld Device Programming II unit for the BEng in Software Engineering at the Java Institute for Advanced Technology by Pasan Wijekoon (Admission No: 200401511026).
 ```
