@@ -118,7 +118,6 @@ Below screenshots:
 ## Project Structure
 - `app/`: Android app source code
 - `admin-panel/`: PHP admin panel source code
-- `docs/`: Project documentation
 - `screenshots/`: Screenshots of the app and admin panel
 
 ## Testing
