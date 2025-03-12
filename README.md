@@ -106,12 +106,12 @@ Soleia is an Android-based event management platform designed to streamline even
   - Log in with admin credentials to manage events, users, payments, and categories.
 
 ## Screenshots
-Below are some example screenshots (add these to a `screenshots/` folder in your repository and update the links):
+Below screenshots:
 
 - ![Sign In](https://github.com/PasanSWijekoon/Soleia-Event-Booking-Application/blob/main/1%20(1).jpg?raw=true)
-- ![Home Screen](screenshots/home_screen.png)
-- ![Event Details](screenshots/event_details.png)
-- ![Admin Dashboard](screenshots/admin_dashboard.png)
+- ![Home Screen](https://github.com/PasanSWijekoon/Soleia-Event-Booking-Application/blob/main/1%20(2).jpg?raw=true)
+- ![Event Details](https://github.com/PasanSWijekoon/Soleia-Event-Booking-Application/blob/main/1%20(3).jpg?raw=true)
+- ![Admin Dashboard](https://github.com/PasanSWijekoon/Soleia-Event-Booking-Application/blob/main/1%20(4).jpg?raw=true)
 
 ## Project Structure
 - `app/`: Android app source code
