@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#E8F5E9" android:state_checked="true"/> <!-- Light green when selected -->
+    <item android:color="@android:color/transparent"/> <!-- Transparent when not selected -->
+</selector>

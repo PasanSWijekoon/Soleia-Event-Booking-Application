@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Generated Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        .btn-toolbar {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            margin-right: 10px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+        }
+
+        .page {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .bb {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+
+        .product-area table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .product-area th,
+        .product-area td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .balance-info {
+            margin-top: 20px;
+        }
+
+        .balance-info table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .balance-info td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="btn-toolbar">
+            <a href="javascript:void(0);" class="btn" onclick="window.print();">Print</a>
+            <a href="purchaselist.php" class="btn btn-danger">Close</a>
+        </div>
+
+        <div class="page" size="A4" id="page">
+            <div class="p-5">
+                <section class="top-content bb d-flex justify-content-between">
+                    <div class="logo">
+                        <img src="Invoice.png" alt="Invoice Logo">
+                    </div>
+                    <div class="top-left">
+                        <div class="graphic-path">
+                            <p>Invoice</p>
+                        </div>
+                        <div class="position-relative">
+                            <p>Invoice No. <span>{{invoice_id}}</span></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="store-user mt-5">
+                    <div class="col-10">
+                        <div class="row bb pb-3">
+                            <div class="col-7">
+                                <p>Supplier,</p>
+                                <h2>Play Tech Solutions</h2>
+                                <p class="address">945 Maradana Road, 08, <br> Colombo, <br> Sri Lanka </p>
+                                <div class="txn mt-2">Tele: 071909090</div>
+                            </div>
+                            <div class="col-5">
+                                <p>Client,</p>
+                                <h2>{{client_name}}</h2>
+                                <p class="address">{{client_address}}</p>
+                                <div class="txn mt-2">{{client_email}}</div>
+                            </div>
+                        </div>
+                        <div class="row extra-info pt-3">
+                            <div class="col-7">
+                                <p>Payment Method: <span>{{payment_method}}</span></p>
+                                <p>Order Number: <span>{{order_number}}</span></p>
+                            </div>
+                            <div class="col-5">
+                                <p>Invoice Date: <span>{{invoice_date}}</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="product-area mt-4">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Item Description</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="media">
+                                        <img src="{{product_image}}" alt="Product Image" style="max-width: 50px; margin-right: 10px;">
+                                        <div class="media-body">
+                                            <p class="mt-0 title">{{product_title}}</p>
+                                            Ram 6Gb Rom 256 GB
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>Rs. {{product_price}}</td>
+                                <td>{{product_quantity}}</td>
+                                <td>Rs. {{product_total}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section class="balance-info">
+                    <div class="row">
+                        <div class="col-8">
+                            <p class="m-0 font-weight-bold">Note:</p>
+                            <p>Thank you for shopping with us!</p>
+                        </div>
+                        <div class="col-4">
+                            <table>
+                                <tr>
+                                    <td>Sub Total:</td>
+                                    <td>Rs. {{sub_total}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Delivery:</td>
+                                    <td>Rs. {{delivery_fee}}</td>
+                                </tr>
+                                <tfoot>
+                                    <tr>
+                                        <td>Total:</td>
+                                        <td>Rs. {{total}}</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#FF6B8B"
+                android:centerColor="#4ECDC4"
+                android:endColor="#8A2BE2"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- Glass effect overlay -->
+    <item>
+        <shape>
+            <solid android:color="#26FFFFFF"/>
+            <stroke
+                android:width="1dp"
+                android:color="#33FFFFFF"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home_organizer"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_create_event_organizer"
+        android:icon="@drawable/baseline_add_box_24"
+        android:title="New Event" />
+
+    <item
+        android:id="@+id/fab_organizer"
+
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_view_events"
+        android:icon="@drawable/baseline_event_24"
+        android:title="View Events" />
+
+    <item
+        android:id="@+id/navigation_userprofile_organizer"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Profile" />
+
+</menu>

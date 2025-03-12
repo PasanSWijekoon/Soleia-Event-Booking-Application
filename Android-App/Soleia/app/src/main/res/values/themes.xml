@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Soleia" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorPrimaryVariant">@color/maincolor</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/maincolor</item>
+
+    </style>
+
+
+
+    <style name="Base.Theme.Soleiasplash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:navigationBarColor">@color/maincolor</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/maincolor</item>
+        <item name="android:windowBackground">@color/maincolor</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    
+    <style name="fullCornerImage">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+
+    </style>
+
+    <style name="CustomDatePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/maincolor</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorOnPrimary">@color/maincolor</item>
+    </style>
+
+    <style name="CustomTimePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/maincolor</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorOnPrimary">@color/maincolor</item>
+    </style>
+
+
+
+
+    <style name="Theme.Soleia" parent="Base.Theme.Soleia" />
+</resources>
