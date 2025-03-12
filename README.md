@@ -139,7 +139,7 @@ Contributions are welcome! To contribute:
 5. Submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is Free to Use for anyone❤❤
 
 ## Contact
 For questions or support, contact Pasan Wijekoon via:
