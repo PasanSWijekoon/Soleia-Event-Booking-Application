@@ -1,4 +1,4 @@
-package com.strawhats.soleia.Activity;
+ackage com.strawhats.soleia.Activity;
 
 import android.Manifest;
 import android.content.Intent;
